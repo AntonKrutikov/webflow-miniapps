@@ -50,6 +50,7 @@ export class Paint {
         this.btnClose?.addEventListener('click', e => {
             this.close()
         })
+        this.buttons?.Pencil?.classList.add('active-tool')
 
 
 
@@ -461,6 +462,7 @@ export class Paint {
     close() {
         this.resetTool()
         this.currentTool = 'pencil'
+        this.buttons?.Pencil?.classList.add('active-tool')
         this.canvas.classList.add('cursor-pencil')
 
         this.container.classList.remove('maximized')
