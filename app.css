@@ -11,7 +11,7 @@
     resize: none !important;
 }
 .button-pushed {
-    transform: translate(10px, 10px);
+    transform: translate(1px, 1px);
 }
 .head-ui-window, .title-window-header  {
     cursor: unset !important;
