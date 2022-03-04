@@ -157,3 +157,8 @@
     transition: all 0.2s ease-in;
     opacity: 0;
 }
+
+/* Pointer events fix */
+body {
+    touch-action: none;
+}
